@@ -9,7 +9,7 @@ const app = express();
 connectDB();
 
 app.use(cors({
-  origin: 'https://task-management-system-vite.vercel.app/',
+  origin: 'https://task-management-system-vite-cvw14fk3q.vercel.app',
   credentials: true
 }));
 app.use(express.json());
